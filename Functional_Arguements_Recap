@@ -15,5 +15,5 @@ def assign_table(table_number, name, vip_status):
     tables[table_number] = [name, vip_status]
 
 assign_table(2, 'John', True)
-
+assign_table(name = 'Martha', table_number=3, vip_status=True)
 print(tables)
